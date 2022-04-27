@@ -1,6 +1,8 @@
 package com.FindMySquad.FindMySquad.Model;
 
-public class Plataforma {
+import java.io.Serializable;
+
+public class Plataforma implements Serializable {
 
     private String plataforma;
 

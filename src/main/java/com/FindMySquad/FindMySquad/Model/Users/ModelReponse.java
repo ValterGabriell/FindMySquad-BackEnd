@@ -8,8 +8,8 @@ import java.util.ArrayList;
 public class ModelReponse {
     private String nickname;
     private String horario;
-    private ArrayList<Games> listaJogos;
-    private ArrayList<Plataforma> listaPlataforma;
+    private ArrayList<Games> games;
+    private ArrayList<Plataforma> plataforma;
     private String email;
 
     public String getNickname() {
@@ -28,20 +28,20 @@ public class ModelReponse {
         this.horario = horario;
     }
 
-    public ArrayList<Games> getListaJogos() {
-        return listaJogos;
+    public ArrayList<Games> getGames() {
+        return games;
     }
 
-    public void setListaJogos(ArrayList<Games> listaJogos) {
-        this.listaJogos = listaJogos;
+    public void setGames(ArrayList<Games> games) {
+        this.games = games;
     }
 
-    public ArrayList<Plataforma> getListaPlataforma() {
-        return listaPlataforma;
+    public ArrayList<Plataforma> getPlataforma() {
+        return plataforma;
     }
 
-    public void setListaPlataforma(ArrayList<Plataforma> listaPlataforma) {
-        this.listaPlataforma = listaPlataforma;
+    public void setPlataforma(ArrayList<Plataforma> plataforma) {
+        this.plataforma = plataforma;
     }
 
     public String getEmail() {

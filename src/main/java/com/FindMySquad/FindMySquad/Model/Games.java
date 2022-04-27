@@ -1,6 +1,11 @@
 package com.FindMySquad.FindMySquad.Model;
 
-public class Games {
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+
+import java.io.Serializable;
+
+
+public class  Games implements Serializable {
     private String nameGame;
 
     public String getNameGame() {
